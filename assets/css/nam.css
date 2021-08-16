@@ -1,0 +1,231 @@
+
+        body[data-topbar=colored] #page-topbar {
+            background-color: #F07538
+        }
+        
+        .page-title-box {
+            background-color: #F07538;
+            padding: 5px 12px 65px 12px
+        }
+        
+        .form-control:focus {
+            border: 1px solid #F07538
+        }
+        
+        .bg-main {
+            background-color: #F07538!important
+        }
+        
+        body[data-topbar=colored] .dropdown.show .header-item {
+            background-color: #F07538
+        }
+        
+        #sidebar-menu ul li a .uim-svg {
+            fill: #F07538!important
+        }
+        
+        .mm-active {
+            color: #F07538!important
+        }
+        
+        .mm-active .active {
+            color: #F07538!important
+        }
+        
+        .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
+            color: #fff;
+            background-color: #F07538
+        }
+        
+        .vertical-collpsed .vertical-menu #sidebar-menu>ul>li:hover>a {
+            color: #F07538;
+            font-weight: 700
+        }
+        
+        .box-price-service {
+            text-align: center;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: #1fab89;
+            background-color: #bcffdc;
+            border-radius: 50px
+        }
+        
+        .page-item.active .page-link {
+            z-index: 3;
+            color: #fff;
+            background-color: #F07538;
+            border-color: #F07538
+        }
+        
+        .menu-img {
+            height: 17px;
+            margin: 4px;
+            padding-left: 3px;
+            display: inline-block
+        }
+        
+        .bank-style {
+            border-radius: 20px;
+            border: 2px solid #F07538;
+            padding: 15px
+        }
+        
+        .box-service-panel {
+            border: 1.2px solid #1a4ae8;
+            border-radius: 10px
+        }
+        
+        .box-service-panel:hover {
+            border: 2px solid #1a4ae8;
+            transform: translate3d(0, 0, 0);
+            backface-visibility: hidden;
+            perspective: 1000px
+        }
+        
+        .service-text {
+            padding-top: 12px;
+            font-weight: 600;
+            color: #3a3a3a;
+            box-sizing: border-box
+        }
+        
+        .box-service-panel img {
+            height: 40px;
+            margin-bottom: 12px
+        }
+        
+        @keyframes shake {
+            10%, 90% {
+                transform: translate3d(-1px, 0, 0)
+            }
+            20%,
+            80% {
+                transform: translate3d(2px, 0, 0)
+            }
+            30%,
+            50%,
+            70% {
+                transform: translate3d(-4px, 0, 0)
+            }
+            40%,
+            60% {
+                transform: translate3d(4px, 0, 0)
+            }
+        }
+
+        .feather-icon .icon-section {
+            padding: 30px;
+        }
+        
+        .feather-icon .icon-section h4 {
+            color: #3b3f5c;
+            font-size: 17px;
+            font-weight: 600;
+            margin: 0;
+            margin-bottom: 16px;
+        }
+        
+        .feather-icon .icon-content-container {
+            padding: 0 16px;
+            width: 86%;
+            margin: 0 auto;
+            border: 1px solid #bfc9d4;
+            border-radius: 6px;
+        }
+        
+        .feather-icon .icon-section p.fs-text {
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .feather-icon .icon-container {
+            cursor: pointer;
+        }
+        
+        .feather-icon .icon-container svg {
+            color: #3b3f5c;
+            margin-right: 6px;
+            vertical-align: middle;
+            width: 20px;
+            height: 20px;
+            fill: rgba(0, 23, 55, 0.08);
+        }
+        
+        .feather-icon .icon-container:hover svg {
+            color: #1b55e2;
+            fill: rgba(27, 85, 226, 0.23921568627450981);
+        }
+        
+        .feather-icon .icon-container span {
+            display: none;
+        }
+        
+        .feather-icon .icon-container:hover span {
+            color: #1b55e2;
+        }
+        
+        .feather-icon .icon-link {
+            color: #1b55e2;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        /*FAB*/
+        
+        .fontawesome .icon-section {
+            padding: 30px;
+        }
+        
+        .fontawesome .icon-section h4 {
+            color: #3b3f5c;
+            font-size: 17px;
+            font-weight: 600;
+            margin: 0;
+            margin-bottom: 16px;
+        }
+        
+        .fontawesome .icon-content-container {
+            padding: 0 16px;
+            width: 86%;
+            margin: 0 auto;
+            border: 1px solid #bfc9d4;
+            border-radius: 6px;
+        }
+        
+        .fontawesome .icon-section p.fs-text {
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .fontawesome .icon-container {
+            cursor: pointer;
+        }
+        
+        .fontawesome .icon-container i {
+            font-size: 20px;
+            color: #3b3f5c;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        
+        .fontawesome .icon-container:hover i {
+            color: #1b55e2;
+        }
+        
+        .fontawesome .icon-container span {
+            color: #888ea8;
+            display: none;
+        }
+        
+        .fontawesome .icon-container:hover span {
+            color: #1b55e2;
+        }
+        
+        .fontawesome .icon-link {
+            color: #1b55e2;
+            font-weight: 600;
+            font-size: 14px;
+        }
+    

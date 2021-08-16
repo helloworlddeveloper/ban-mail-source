@@ -1,0 +1,32 @@
+RewriteEngine On
+RewriteRule ^home$ /pages/home.php [L]
+RewriteRule ^login$ /pages/login.php [L]
+RewriteRule ^signup$ /pages/signup.php [L]
+RewriteRule ^logout$ /pages/logout.php [L]
+RewriteRule ^profile$ /pages/profile.php [L]
+RewriteRule ^lich-su-mua.html$ /pages/lich-su-mua.php [L]
+RewriteRule ^baotri$ /pages/baotri.php [L]
+RewriteRule ^payment$ /pages/payment.php [L]
+RewriteRule ^bank$ /pages/bank.php [L]
+RewriteRule ^momo$ /pages/payment_momo.php [L]
+RewriteRule ^historylog$ /pages/history-log.php [L]
+RewriteRule ^ticket$ /pages/ticket.php [L]
+RewriteRule ^history-pay$ /admin/history-pay.php [L]
+RewriteRule ^history-login$ /admin/history-login.php [L]
+RewriteRule ^setup-system$ /admin/setting-system.php [L]
+RewriteRule ^setup-payment$ /admin/setting-payment.php [L]
+RewriteRule ^setup-product$ /admin/setting-product.php [L]
+RewriteRule ^add-product$ /admin/add-product.php [L]
+RewriteRule ^setup-money$ /admin/setting-count.php [L]
+RewriteRule ^setup-member$ /admin/setting-member.php [L]
+RewriteRule ^setup-ticket$ /admin/setting-ticket.php [L]
+ErrorDocument 404 /pages/404.php
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php70” package as the default “PHP” programming language.
+<IfModule mime_module>
+
+  AddHandler application/x-httpd-ea-php70___lsphp .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
