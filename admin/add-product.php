@@ -1,4 +1,9 @@
 <?php
+/*
+* @author: Vũ Đình Nam Khánh - Nguyễn Lê Hoàng Anh
+* @contact: vudinhnamkhanh.clone@gmail.com
+* @copyright: copyright © 2021
+**/
 session_start();
 require_once '../core/database.php';
 if(empty($_SESSION['username'])){
